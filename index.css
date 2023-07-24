@@ -1,0 +1,331 @@
+.navbar-inverse{
+    border: none;
+    border-radius: 0px;
+}
+
+.nav1{
+    background-color: white;
+}
+
+.navbar-toggle{
+    background-color: #1b1b1b;
+    margin-top: 55px;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+}
+
+.navbar-nav > li > a{
+    padding-top: 36px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #7b5d55;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    text-decoration: underline;
+    color: #7b5d55;
+}
+
+.navbar-right li {
+    font-size: 18px;
+    color: black;
+}
+
+.navbar-collapse{
+    margin-top: 30px;
+}
+
+.slider{
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.carousel-caption{
+    left: 140px;
+    top: 30%;
+    text-align: left;
+}
+
+.carousel-caption p{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: italic;
+    font-family: italic;
+    color: #efb098;
+    font-weight: bold;
+}
+
+.heading{
+    color: #fdf0f0;
+    font-size: 65px;
+    font-weight: 510;
+}
+
+.btn1{
+    background-color: rgb(189, 105, 105);
+    width: 170px;
+    height: 55px;
+    border: 1px solid rgb(189, 105, 105);
+    margin-top: 35px;
+    font-size: 18px;
+    color: #e2d1d4;
+}
+
+.main-heading{
+    margin: 70px 0px 50px 0px;
+}
+
+.img-grid{
+    margin: 0px auto 10px auto;  
+}
+
+.caption{
+    text-align: center;
+}
+
+.content1{
+    margin-bottom: 30px;
+}
+
+.btn2{
+    background-color: rgb(189, 105, 105);
+    width: 170px;
+    height: 55px;
+    border: 1px solid rgb(189, 105, 105);
+    margin-top: 18px;
+    font-size: 18px;
+    color: #e2d1d4;
+}
+
+.thumbnail a > img{
+    width: 100%;
+    height: 267px;
+}
+
+.capt{
+    font-size: 22px;
+    text-align: center;
+}
+
+.card{
+    border: 1px solid rgb(203, 202, 202);
+    margin-top: 50px;
+}
+
+.card1{
+    padding: 20px;
+}
+
+.card1 h2{
+    padding-bottom: 20px;
+}
+
+.card1 p{
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.caption{
+    text-align: left;
+}
+
+.image1{
+    padding: 0px;
+}
+
+.thumbnail .news {
+    width: 100%;
+    height: 320px;
+}
+
+.news-img{
+    height: 580px;
+}
+
+.card-heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.date{
+    font-size: 16px;
+}
+
+.card-para{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer{
+    border-top: 1px solid #cfcccc;
+}
+
+.footerText{
+    color: #767577;
+    font-size: 25px;
+    font-family: "BodoniStd-BookItalic", serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.flist li{
+    list-style-type: none;
+    padding: 8px;
+    color: #9a9a9a;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.fIcons{
+    display: flex;
+    list-style-type: none;
+}
+
+.fIcons li {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.fIcons i {
+    color: gray;
+}
+
+.form-horizontal{
+    margin-left: 50px;
+}
+
+.input-form{
+    display: flex;
+}
+
+#inputSuccess{
+    width: 200px;
+    height: 45px;
+    padding: 15px;
+}
+
+.send{
+    width: 60px;
+    height: 62px;
+}
+
+.label1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #9a9a9a;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.fLink{
+    color: #1b1b1b;
+}
+
+.join{
+    width: 50px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid #cac8c8;
+}
+
+.ftext{
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.footer2{
+    border-top: 1px solid #cfcccc;
+    margin-top: 20px;
+}
+
+.div02{
+    margin-top: 20px;
+}
+
+.right{
+    margin-left: 350px;
+}
+
+@media only screen and (max-width: 768px) {  
+    .navbar-nav > li > a{
+        padding-top: 10px;
+    }
+    
+    .carousel-caption{
+        top: 20%;
+    }
+
+    .thumbnail a > img{
+        height: 390px;
+    }
+
+    .caption{
+        text-align: center;
+    }
+
+    .caption h4{
+        font-size: 20px;
+    }
+
+    .caption .date{
+        font-size: 18px;
+    }
+
+    .news-img {
+        height: 600px;
+    }
+
+    .date {
+        font-size: 20px;
+    }
+
+    .card-para {
+        font-size: 16px;
+    }
+
+    .fitem{
+        text-align: center;
+    }
+
+    .fIcons{
+        justify-content: center;
+    }
+
+    .input-form{
+        justify-content: center;
+    }
+
+    .div02{
+        text-align: center;
+    }
+
+    .right{
+        margin-left: 0px;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption{
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+
+    .main-heading{
+        text-align: center;
+    }
+
+    .news-img {
+        height: 540px;
+    }
+}
+
+
